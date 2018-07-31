@@ -17,7 +17,7 @@
 class PinDigitalIn: public Pin
 {
 	public:
-	PinDigitalIn(uint8_t pin, int mode=MODE_DEFAULT);
+	PinDigitalIn(uint8_t pin, int mode=PinDigitalIn::MODE_DEFAULT);
 	
 	
 	const static int MODE_DEFAULT=Pin::MODE_DIGITAL_IN;
